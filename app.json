@@ -18,7 +18,16 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.map.location"
+      "package": "com.map.location",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "082a619f-f815-4086-a376-b2631eb1f6e7"
+      }
     }
   }
 }
