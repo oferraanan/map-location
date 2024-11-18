@@ -11,7 +11,7 @@
   "devDependencies": {
     "@babel/core": "^7.19.3"
   },
-  "name": "my-app",
+  "name": "map-location",
   "version": "1.0.0",
   "private": true,
   "scripts": {
