@@ -1,18 +1,18 @@
+// noinspection JSValidateTypes
+
 import {Pressable, View, Text, StyleSheet} from "react-native";
 import MapView from "react-native-maps";
 import * as Location from 'expo-location';
-import {useEffect, useRef, useState} from "react";
+import {useEffect, useState} from "react";
 
-let isDebug = true;
+let isDebug = false;
 let locationHeadingSubscription;
 let locationOn = false;
 
 export default function App() {
 
-    const [errorMsg, setErrorMsg] = useState('');
+    const [errorMsg, setErrorMsg] = useState('d');
     const [heading, setHeading] = useState(0);
-
-    const mapRef = useRef();
 
     async function startLocationHeadingSubscription() {
         if (locationOn && !locationHeadingSubscription) {
@@ -100,11 +100,9 @@ export default function App() {
                     width: "100%",
                     height: "80%",
                 }}
-                ref={mapRef}
                 showsUserLocation={true}
             />
             <Text style={{
-                alignItems: 'center',
                 padding: 10,
                 fontWeight: 'bold',
                 height: 50,
