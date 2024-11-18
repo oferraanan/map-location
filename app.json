@@ -1,4 +1,24 @@
 {
-  "name": "map-location",
-  "slug": "map-location"
+  "expo": {
+    "name": "map-location",
+    "slug": "map-location",
+    "newArchEnabled": true,
+    "version": "1.0.1",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ],
+    "android": {
+      "versionCode": 1001,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.map.location"
+    }
+  }
 }
