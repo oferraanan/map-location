@@ -11,7 +11,7 @@ let locationOn = false;
 
 export default function App() {
 
-    const [errorMsg, setErrorMsg] = useState('d');
+    const [errorMsg, setErrorMsg] = useState('');
     const [heading, setHeading] = useState(0);
 
     async function startLocationHeadingSubscription() {
@@ -111,7 +111,7 @@ export default function App() {
             </Text>
 
             {errorMsg &&
-                <View style={[styles.container, styles.error, {flex: 5, alignItems: 'center'}]}>
+                <View style={[styles.container, styles.error, {margin: 10, alignItems: 'center'}]}>
                     <Text style={styles.error}>{errorMsg}</Text>
                     <Pressable
                         style={[styles.pressable]}
@@ -141,7 +141,6 @@ const styles = StyleSheet.create({
         width: '100%',
         padding: 5,
         color: 'red',
-        backgroundColor: 'oldlace',
         textAlign: 'center',
     },
     buttonText: {
@@ -151,10 +150,10 @@ const styles = StyleSheet.create({
         width: 75,
         textAlign: 'center',
         fontSize: 15,
-        paddingTop: 2
+        paddingTop: 5
     },
     pressable: {
         borderRadius: 10,
-        padding: 4,
+        padding: 10,
     },
 });
