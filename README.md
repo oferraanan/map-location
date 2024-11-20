@@ -13,3 +13,5 @@
   - open the installed app on the device
  
 Works fine on Expo Go for Android and iOS
+
+Fix 20/11/2024 provided "expo-location": "~18.0.2"
