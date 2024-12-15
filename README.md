@@ -15,5 +15,7 @@
 Works fine on Expo Go for Android and iOS
 
 Fix 20/11/2024 provided "expo-location": "~18.0.2"
-Problem is back with the latest "expo-location": "~18.0.3"
+Problem is back 08/12/2024 with the latest "expo-location": "~18.0.3"
 Fix 12/12/2024 provided "expo-location": "~18.0.4"
+development build that works:
+https://expo.dev/accounts/oferrevi/projects/map-location/builds/c4d91821-dbaa-4675-bd50-fced536c166f
