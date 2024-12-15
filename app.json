@@ -27,7 +27,12 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.map.location"
+      "package": "com.map.location",
+      "config": {
+        "googleMaps": {
+          "apiKey": ""
+        }
+      }
     },
     "extra": {
       "eas": {
