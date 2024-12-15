@@ -15,6 +15,5 @@
 Works fine on Expo Go for Android and iOS
 
 Fix 20/11/2024 provided "expo-location": "~18.0.2"
-BUT 
 Problem is back with the latest "expo-location": "~18.0.3"
-
+Fix 12/12/2024 provided "expo-location": "~18.0.4"
